@@ -1,0 +1,206 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+
+
+
+@-webkit-keyframes spin {
+      from { -webkit-transform: rotateY(0);}
+			80%{text-shadow:0 0 0px #FF0000;}
+      to { -webkit-transform: rotateY(360deg);}
+
+}
+
+
+
+.container_logo{
+    padding-top: 150px;
+	margin:auto;
+    width: 600px; 
+	height:300px; 
+	background-color: transparent;
+    -webkit-animation: spin 7s infinite linear; 
+	-webkit-transform-style: preserve-3d;
+}
+
+
+
+
+.logotype{
+	position: absolute;
+	background-color: transparent;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+
+.logotype p {
+	color:blue;
+	font-family: Bitter, sans-serif;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 0px;
+}
+
+
+
+.pole_container_left{
+	padding-top: 100px;
+	display: inline-block;
+	background-color: transparent;
+	margin-left:165px;
+    width: 115px; 
+	height:110px; 
+	-webkit-transform: rotate(-20deg);
+   -moz-transform: rotate(-20deg);
+   -ms-transform: rotate(-20deg);
+   -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    Rotate Origin 
+   -webkit-transform-origin: 0 100%;
+   -moz-transform-origin: 0 100%;
+   -ms-transform-origin: 0 100%;
+   -o-transform-origin: 0 100%;
+   transform-origin: 0 100%;
+}
+
+
+
+
+#tri_container { 
+	background-color: none;
+	float:left;
+	width: 26px; 
+	height: 100px; 
+}
+
+
+
+#triangle-topright { 
+	display: inline-block;
+	width: 0; 
+	height: 0; 
+	border-top: 26px solid red; 
+	border-left: 26px solid transparent; 
+}
+
+
+
+#triangle-bottomright { 
+	display: inline-block;
+	width: 0; 
+	height: 0; 
+	border-bottom: 26px solid red; 
+	border-left: 26px solid transparent; 
+}
+
+
+
+#flag_letter_left{
+	width: 70px; 
+	height:54px; 
+    background-color: red;
+	float:right;
+	border-right: 3px solid red; 
+	border-bottom: 2px solid red;
+	font-family: Bitter, sans-serif;
+	font-weight: bold;
+}
+
+
+
+#flag_pole_left {
+    width: 11px; 
+	height:110px;
+	margin-left:5px;
+	background-color: red;
+	float:right;
+}
+
+
+/*end of left flag*/
+
+ 
+
+
+.pole_container_right{
+	display: inline-block;
+	padding-top: 100px;
+	background-color: transparent;
+	margin-left: 30px;
+    width: 115px; 
+	height:110px; 
+	-webkit-transform: rotate(20deg);
+   -moz-transform: rotate(20deg);
+   -ms-transform: rotate(20deg);
+   -o-transform: rotate(20deg);
+   transform: rotate(20deg);
+    Rotate Origin 
+   -webkit-transform-origin: 0 100%;
+   -moz-transform-origin: 0 100%;
+   -ms-transform-origin: 0 100%;
+   -o-transform-origin: 0 100%;
+   transform-origin: 0 100%;
+  }
+
+
+#flag_pole_right {
+    width: 11px; 
+	height:110px;
+	margin-right:5px;
+	background-color: red;
+	float:left;
+}
+
+
+#flag_letter_right{
+	width: 70px; 
+	height:50px; 
+    background-color: red;
+	float:left;
+	border-right: 3px solid red; 
+	border-bottom: 2px solid red;
+}
+
+
+
+div h1 {
+	font-family: Bitter, sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 40px;
+	type-align:center;
+	line-height: 0px;
+	padding-left:22px;
+}
+
+
+#triangle-topleft { 
+	width: 0; 
+	height: 0; 
+	border-top: 26px solid red; 
+	border-right: 26px solid transparent;
+	float:right; 
+}
+
+
+
+#triangle-bottomleft { 
+	width: 0; 
+	height: 0; 
+	border-bottom: 26px solid red; 
+	border-right: 26px solid transparent; 
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
